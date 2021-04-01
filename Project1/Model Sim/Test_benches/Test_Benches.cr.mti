@@ -1,0 +1,23 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/Counter/simulation/modelsim/Counter.vo} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/Counter/simulation/modelsim/Counter.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter
+-- Compiling module hard_block
+
+Top level modules:
+	Counter
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Test_benches\Counter_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CounterTB
+
+Top level modules:
+	CounterTB
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RingOscillator
+
+Top level modules:
+	RingOscillator
+
+} {} {}}

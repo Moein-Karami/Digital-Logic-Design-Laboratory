@@ -1,0 +1,19 @@
+`timescale 1ns/1ps
+
+module CounterTB();
+	reg en, preset;
+	wire clk, ring;
+	Counter cnt(.clk(ring), .preset(preset), .co(clk));
+	RingOscillator ring_osc(.en(en), .clk(ring));
+
+	initial begin
+		en = 0;
+		preset = 0;
+		#100;
+		en = 1;
+		#100;
+		preset = 1;
+		#100000;
+		$stop;
+	end
+endmodule

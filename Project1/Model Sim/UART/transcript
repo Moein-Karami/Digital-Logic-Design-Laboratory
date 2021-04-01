@@ -1,0 +1,434 @@
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v failed with 2 errors.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.FinalTB -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/brgckt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo}
+# vsim -gui work.FinalTB -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/brgckt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo" 
+# Start time: 04:09:20 on Apr 01,2021
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(60).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+add wave -position end sim:/FinalTB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(46)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 46
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(48)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 48
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(63).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(49)
+#    Time: 1250 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 49
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(61).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(47)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 47
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(61).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(47)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 47
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(48)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 48
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v failed with 1 errors.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+# Warning in wave window restart: (vish-4014) No objects found matching '/FinalTB/clk4'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/FinalTB/clk8'. 
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1718 ps, asdata:1849 ps, 189 ps );
+#    Time: 1849 ps  Iteration: 0  Process: /FinalTB/brgckt/\inst|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(48)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 48
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/altera/verilog/src/cycloneive_atoms.v
+# Path name 'D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+# Warning in wave window restart: (vish-4014) No objects found matching '/FinalTB/counter_preset'. 
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1718 ps, asdata:1849 ps, 189 ps );
+#    Time: 1849 ps  Iteration: 0  Process: /FinalTB/brgckt/\inst|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(48)
+#    Time: 1150 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 48
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1718 ps, asdata:1849 ps, 189 ps );
+#    Time: 1849 ps  Iteration: 0  Process: /FinalTB/brgckt/\inst|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(48)
+#    Time: 500650 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 48
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(62).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1718 ps, asdata:1849 ps, 189 ps );
+#    Time: 1849 ps  Iteration: 0  Process: /FinalTB/brgckt/\inst|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(48)
+#    Time: 500650 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 48
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(63).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1718 ps, asdata:1849 ps, 189 ps );
+#    Time: 1849 ps  Iteration: 0  Process: /FinalTB/brgckt/\inst|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(49)
+#    Time: 500650 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 49
+quit -sim
+# End time: 14:15:49 on Apr 01,2021, Elapsed time: 10:06:29
+# Errors: 1, Warnings: 2
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/brgckt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo} work.FinalTB
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/brgckt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo" work.FinalTB 
+# Start time: 14:16:35 on Apr 01,2021
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(63).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+add wave -position end sim:/FinalTB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(49)
+#    Time: 500650 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 49
+quit -sim
+# End time: 14:38:23 on Apr 01,2021, Elapsed time: 0:21:48
+# Errors: 0, Warnings: 5
+# Compile of BRGCKT.vo was successful.
+# Compile of Final_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/brgckt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo} work.FinalTB
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/brgckt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo" work.FinalTB 
+# Start time: 14:39:05 on Apr 01,2021
+# Loading work.FinalTB
+# Loading work.BRGCKT
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# Loading work.TFlioFlop
+# Loading work.MUX
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading instances from BRGCKT_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'k'. The port definition is at: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(63).
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB/mux File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v Line: 15
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/BRGCKT_v.sdo
+# Loading timing data from BRGCKT_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /FinalTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v
+add wave -position end sim:/FinalTB/*
+run -all
+# ** Error: $hold( posedge clk &&& sloaddata:1718 ps, asdata:1849 ps, 189 ps );
+#    Time: 1849 ps  Iteration: 0  Process: /FinalTB/brgckt/\inst|data_path|counter|out[0] /#Setuphold# File: $MODEL_TECH/../altera/verilog/src/altera_primitives.v Line: 294
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v(49)
+#    Time: 500650 ns  Iteration: 0  Instance: /FinalTB
+# Break in Module FinalTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v line 49
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# End time: 15:06:42 on Apr 01,2021, Elapsed time: 0:27:37
+# Errors: 1, Warnings: 5

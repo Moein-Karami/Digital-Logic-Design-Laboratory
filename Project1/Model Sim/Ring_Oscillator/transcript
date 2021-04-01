@@ -1,0 +1,24 @@
+# Reading pref.tcl
+# OpenFile {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/FPGA.mpf}
+# Loading project FPGA
+vsim -gui work.RingOscillatorTB
+# vsim -gui work.RingOscillatorTB 
+# Start time: 19:19:47 on Mar 30,2021
+# Loading work.RingOscillatorTB
+# Loading work.RingOscillator
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end sim:/RingOscillatorTB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator_TB.v(12)
+#    Time: 1000100 ns  Iteration: 0  Instance: /RingOscillatorTB
+# Break in Module RingOscillatorTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator_TB.v line 12
+quit -sim
+# End time: 20:18:51 on Mar 30,2021, Elapsed time: 0:59:04
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini

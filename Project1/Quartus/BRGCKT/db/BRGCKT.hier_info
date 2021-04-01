@@ -1,0 +1,209 @@
+|BRGCKT
+UxRXIF <= ABRCKT:inst.UxRXIF
+BRGCLK => ABRCKT:inst.BRGCLK
+BRGCLK => Counter:inst2.clk
+ABAUD => ABRCKT:inst.ABAUD
+UxRX => ABRCKT:inst.UxRX
+BRGout <= Counter:inst2.co
+counter_preset => Counter:inst2.preset
+
+
+|BRGCKT|ABRCKT:inst
+BRGCLK => BRGCLK.IN2
+ABAUD => ABAUD.IN1
+UxRX => UxRX.IN1
+UxRXIF <= Controller:controller.port3
+N[0] <= DataPath:data_path.port4
+N[1] <= DataPath:data_path.port4
+N[2] <= DataPath:data_path.port4
+N[3] <= DataPath:data_path.port4
+N[4] <= DataPath:data_path.port4
+N[5] <= DataPath:data_path.port4
+N[6] <= DataPath:data_path.port4
+N[7] <= DataPath:data_path.port4
+
+
+|BRGCKT|ABRCKT:inst|Controller:controller
+ABAUD => Selector1.IN2
+ABAUD => Selector0.IN2
+UxRX => Selector1.IN3
+UxRX => Selector3.IN1
+UxRX => Selector5.IN1
+UxRX => Selector6.IN3
+UxRX => Selector6.IN4
+UxRX => Selector8.IN1
+UxRX => ns.1011.DATAB
+UxRX => Selector2.IN1
+UxRX => Selector4.IN1
+UxRX => ns.0110.DATAB
+UxRX => Selector6.IN1
+UxRX => Selector7.IN1
+UxRX => Selector9.IN1
+BRGCLK => ps~1.DATAIN
+UxRXIF <= UxRXIF.DB_MAX_OUTPUT_PORT_TYPE
+ld_en <= ld_en.DB_MAX_OUTPUT_PORT_TYPE
+cnt_rst <= cnt_rst.DB_MAX_OUTPUT_PORT_TYPE
+cnt_en <= cnt_en.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BRGCKT|ABRCKT:inst|DataPath:data_path
+BRGCLK => BRGCLK.IN2
+cnt_en => cnt_en.IN1
+cnt_rst => cnt_rst.IN1
+ld_en => ld_en.IN1
+N[0] <= Register:register.port3
+N[1] <= Register:register.port3
+N[2] <= Register:register.port3
+N[3] <= Register:register.port3
+N[4] <= Register:register.port3
+N[5] <= Register:register.port3
+N[6] <= Register:register.port3
+N[7] <= Register:register.port3
+
+
+|BRGCKT|ABRCKT:inst|DataPath:data_path|SimpleCounter:counter
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+en => out[7]~reg0.ENA
+en => out[6]~reg0.ENA
+en => out[5]~reg0.ENA
+en => out[4]~reg0.ENA
+en => out[3]~reg0.ENA
+en => out[2]~reg0.ENA
+en => out[1]~reg0.ENA
+en => out[0]~reg0.ENA
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => out[2]~reg0.ACLR
+rst => out[3]~reg0.ACLR
+rst => out[4]~reg0.ACLR
+rst => out[5]~reg0.ACLR
+rst => out[6]~reg0.ACLR
+rst => out[7]~reg0.ACLR
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BRGCKT|ABRCKT:inst|DataPath:data_path|Register:register
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => out[2]~reg0.CLK
+clk => out[3]~reg0.CLK
+clk => out[4]~reg0.CLK
+clk => out[5]~reg0.CLK
+clk => out[6]~reg0.CLK
+clk => out[7]~reg0.CLK
+ld => out[0]~reg0.ENA
+ld => out[1]~reg0.ENA
+ld => out[2]~reg0.ENA
+ld => out[3]~reg0.ENA
+ld => out[4]~reg0.ENA
+ld => out[5]~reg0.ENA
+ld => out[6]~reg0.ENA
+ld => out[7]~reg0.ENA
+in[0] => out[0]~reg0.DATAIN
+in[1] => out[1]~reg0.DATAIN
+in[2] => out[2]~reg0.DATAIN
+in[3] => out[3]~reg0.DATAIN
+in[4] => out[4]~reg0.DATAIN
+in[5] => out[5]~reg0.DATAIN
+in[6] => out[6]~reg0.DATAIN
+in[7] => out[7]~reg0.DATAIN
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BRGCKT|Counter:inst2
+co <= 7476:inst.1Q
+b7 => 74193:MSB.D
+b6 => 74193:MSB.C
+b5 => 74193:MSB.B
+b4 => 74193:MSB.A
+b3 => 74193:LSB.D
+b2 => 74193:LSB.C
+b1 => 74193:LSB.B
+b0 => 74193:LSB.A
+clk => 74193:LSB.UP
+preset => 7408:inst6.2
+
+
+|BRGCKT|Counter:inst2|7476:inst
+2QN <= 5.DB_MAX_OUTPUT_PORT_TYPE
+2PRN => 7.PRESET
+2CLRN => 7.ACLR
+2K => 7.IN0
+2J => 7.IN1
+2CLK => 7.CLK
+2Q <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1QN <= 6.DB_MAX_OUTPUT_PORT_TYPE
+1PRN => 8.PRESET
+1CLRN => 8.ACLR
+1K => 8.IN0
+1J => 8.IN1
+1CLK => 8.CLK
+1Q <= 8.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BRGCKT|Counter:inst2|7404:not
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+
+
+|BRGCKT|Counter:inst2|74193:MSB
+BON <= 28.DB_MAX_OUTPUT_PORT_TYPE
+CLR => 44.IN0
+LDN => 43.IN0
+B => 53.IN2
+A => 52.IN2
+DN => 90.IN0
+UP => 89.IN0
+C => 54.IN2
+D => 55.IN2
+CON <= 27.DB_MAX_OUTPUT_PORT_TYPE
+QD <= 23.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 24.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 25.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 26.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BRGCKT|Counter:inst2|74193:LSB
+BON <= 28.DB_MAX_OUTPUT_PORT_TYPE
+CLR => 44.IN0
+LDN => 43.IN0
+B => 53.IN2
+A => 52.IN2
+DN => 90.IN0
+UP => 89.IN0
+C => 54.IN2
+D => 55.IN2
+CON <= 27.DB_MAX_OUTPUT_PORT_TYPE
+QD <= 23.DB_MAX_OUTPUT_PORT_TYPE
+QC <= 24.DB_MAX_OUTPUT_PORT_TYPE
+QB <= 25.DB_MAX_OUTPUT_PORT_TYPE
+QA <= 26.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BRGCKT|Counter:inst2|7408:inst6
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+

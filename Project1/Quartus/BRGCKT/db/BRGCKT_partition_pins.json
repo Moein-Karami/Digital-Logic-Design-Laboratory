@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "UxRXIF",
+					"strict" : false
+				},
+				{
+					"name" : "BRGout",
+					"strict" : false
+				},
+				{
+					"name" : "UxRX",
+					"strict" : false
+				},
+				{
+					"name" : "BRGCLK",
+					"strict" : false
+				},
+				{
+					"name" : "counter_preset",
+					"strict" : false
+				},
+				{
+					"name" : "ABAUD",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

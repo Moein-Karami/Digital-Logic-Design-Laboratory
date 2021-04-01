@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 3/Madar Manteghi/Projects/Project6/ModelSim/CompleteDisgnTB
+vRingOscillator
+Z0 !s110 1616876950
+!i10b 1
+!s100 FKg`@0XllP=8Oi[cEBcNA0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ILgS0b9z6:[4S6_Xz_dZdo2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim
+w1616876938
+8D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator.v
+!i122 101
+L0 3 10
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1616876950.000000
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@ring@oscillator
+vRingOscillatorTB
+R0
+!i10b 1
+!s100 PCAZZS0D>d`MFDQDNdd280
+R1
+Ia17mZ>Oz8dLGfP=5MBWSZ0
+R2
+R3
+w1616876932
+8D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator_TB.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator_TB.v
+!i122 102
+L0 3 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator_TB.v|
+!i113 1
+R6
+R7
+n@ring@oscillator@t@b

@@ -1,0 +1,125 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'BRGCLK'
+Slack : -14.320
+TNS   : -142.479
+
+Type  : Slow 1200mV 125C Model Setup 'counter_preset'
+Slack : -12.457
+TNS   : -96.192
+
+Type  : Slow 1200mV 125C Model Hold 'BRGCLK'
+Slack : -2.711
+TNS   : -22.636
+
+Type  : Slow 1200mV 125C Model Hold 'counter_preset'
+Slack : -1.918
+TNS   : -7.967
+
+Type  : Slow 1200mV 125C Model Recovery 'BRGCLK'
+Slack : -12.410
+TNS   : -91.146
+
+Type  : Slow 1200mV 125C Model Recovery 'counter_preset'
+Slack : -9.765
+TNS   : -65.684
+
+Type  : Slow 1200mV 125C Model Removal 'BRGCLK'
+Slack : -4.018
+TNS   : -14.363
+
+Type  : Slow 1200mV 125C Model Removal 'counter_preset'
+Slack : -2.523
+TNS   : -11.041
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'BRGCLK'
+Slack : -3.000
+TNS   : -64.516
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'counter_preset'
+Slack : -3.000
+TNS   : -18.917
+
+Type  : Slow 1200mV -40C Model Setup 'BRGCLK'
+Slack : -12.592
+TNS   : -120.238
+
+Type  : Slow 1200mV -40C Model Setup 'counter_preset'
+Slack : -10.935
+TNS   : -84.017
+
+Type  : Slow 1200mV -40C Model Hold 'BRGCLK'
+Slack : -2.387
+TNS   : -20.171
+
+Type  : Slow 1200mV -40C Model Hold 'counter_preset'
+Slack : -1.730
+TNS   : -7.307
+
+Type  : Slow 1200mV -40C Model Recovery 'BRGCLK'
+Slack : -10.652
+TNS   : -76.912
+
+Type  : Slow 1200mV -40C Model Recovery 'counter_preset'
+Slack : -8.333
+TNS   : -55.961
+
+Type  : Slow 1200mV -40C Model Removal 'BRGCLK'
+Slack : -3.609
+TNS   : -13.028
+
+Type  : Slow 1200mV -40C Model Removal 'counter_preset'
+Slack : -2.248
+TNS   : -9.975
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'BRGCLK'
+Slack : -3.000
+TNS   : -55.844
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'counter_preset'
+Slack : -3.000
+TNS   : -16.448
+
+Type  : Fast 1200mV -40C Model Setup 'BRGCLK'
+Slack : -6.717
+TNS   : -54.969
+
+Type  : Fast 1200mV -40C Model Setup 'counter_preset'
+Slack : -5.897
+TNS   : -41.081
+
+Type  : Fast 1200mV -40C Model Hold 'BRGCLK'
+Slack : -1.260
+TNS   : -10.329
+
+Type  : Fast 1200mV -40C Model Hold 'counter_preset'
+Slack : -0.799
+TNS   : -2.769
+
+Type  : Fast 1200mV -40C Model Recovery 'BRGCLK'
+Slack : -5.664
+TNS   : -41.257
+
+Type  : Fast 1200mV -40C Model Recovery 'counter_preset'
+Slack : -4.515
+TNS   : -29.007
+
+Type  : Fast 1200mV -40C Model Removal 'BRGCLK'
+Slack : -1.747
+TNS   : -6.167
+
+Type  : Fast 1200mV -40C Model Removal 'counter_preset'
+Slack : -1.053
+TNS   : -4.444
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'BRGCLK'
+Slack : -3.000
+TNS   : -46.912
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'counter_preset'
+Slack : -3.000
+TNS   : -14.489
+
+------------------------------------------------------------

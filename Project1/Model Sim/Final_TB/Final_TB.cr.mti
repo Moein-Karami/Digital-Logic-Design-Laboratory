@@ -1,0 +1,25 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/BRGCKT/simulation/modelsim/BRGCKT.vo} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/BRGCKT/simulation/modelsim/BRGCKT.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BRGCKT
+-- Compiling module hard_block
+
+Top level modules:
+	BRGCKT
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Final_TB/Final_TB.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Final_TB\Final_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FinalTB
+-- Compiling module TFlioFlop
+-- Compiling module MUX
+
+Top level modules:
+	FinalTB
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RingOscillator
+
+Top level modules:
+	RingOscillator
+
+} {} {}}

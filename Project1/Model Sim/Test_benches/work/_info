@@ -1,0 +1,106 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vCounter
+Z0 !s110 1617225853
+!i10b 1
+!s100 mbCcn8n<@YI<@m0ZAGIYM0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[XML65_RZL23z1X:4OK;h1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches
+Z4 w1617225621
+Z5 8D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/Counter/simulation/modelsim/Counter.vo
+Z6 FD:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/Counter/simulation/modelsim/Counter.vo
+!i122 173
+L0 32 993
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1617225853.000000
+Z9 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/Counter/simulation/modelsim/Counter.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project1/Quartus/Counter/simulation/modelsim/Counter.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@counter
+vCounterTB
+R0
+!i10b 1
+!s100 0Y[STFQQ]fDzl3a6ilA640
+R1
+IHRAj0U230E3oM?L_EjgL<1
+R2
+R3
+w1617225842
+8D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Test_benches\Counter_TB.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Test_benches\Counter_TB.v
+!i122 174
+L0 3 19
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Test_benches\Counter_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Test_benches\Counter_TB.v|
+!i113 1
+R11
+R12
+n@counter@t@b
+vhard_block
+R0
+!i10b 1
+!s100 `JEzfgBiBlCbZPemia>lO1
+R1
+IXZ6VXag[bZf]7XEn;^heA3
+R2
+R3
+R4
+R5
+R6
+!i122 173
+L0 1026 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vRingOscillator
+!s110 1617225854
+!i10b 1
+!s100 >;D66SfihEG4YQnWO3zmH0
+R1
+I^WLWODc;]m;6F:@eRCdHm3
+R2
+R3
+w1616877473
+8D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v
+!i122 175
+L0 3 11
+R7
+r1
+!s85 0
+31
+!s108 1617225854.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator/Ring_Oscillator.v|
+!i113 1
+R11
+R12
+n@ring@oscillator

@@ -1,0 +1,8 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Ring_Oscillator_TB.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project1\Model Sim\Ring_Oscillator_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RingOscillatorTB
+
+Top level modules:
+	RingOscillatorTB
+
+} {} {}}

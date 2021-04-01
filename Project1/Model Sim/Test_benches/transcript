@@ -1,0 +1,253 @@
+# Reading pref.tcl
+# OpenFile {D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Test_Benches.mpf}
+# Loading project Test_Benches
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.CounterTB -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo}
+# vsim -gui work.CounterTB -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo" 
+# Start time: 01:39:37 on Apr 01,2021
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(65): Failed to find INSTANCE '\carry_out~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(75): Failed to find INSTANCE '\o0~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(85): Failed to find INSTANCE '\o1~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(95): Failed to find INSTANCE '\o2~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(105): Failed to find INSTANCE '\o3~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(115): Failed to find INSTANCE '\o4~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(125): Failed to find INSTANCE '\o5~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(135): Failed to find INSTANCE '\o6~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(145): Failed to find INSTANCE '\o7~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(55): Failed to find INSTANCE '\tmp~output '.
+# Loading instances from Counter_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(65): Failed to find INSTANCE '\carry_out~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(75): Failed to find INSTANCE '\o0~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(85): Failed to find INSTANCE '\o1~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(95): Failed to find INSTANCE '\o2~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(105): Failed to find INSTANCE '\o3~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(115): Failed to find INSTANCE '\o4~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(125): Failed to find INSTANCE '\o5~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(135): Failed to find INSTANCE '\o6~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(145): Failed to find INSTANCE '\o7~output '.
+# ** Error (suppressible): (vsim-SDF-3250) Counter_v.sdo(55): Failed to find INSTANCE '\tmp~output '.
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Error (suppressible): (vsim-3389) Port 'tmp' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'carry_out' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o0' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o1' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o2' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o3' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o4' not found in the connected module (10th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o5' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o6' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o7' not found in the connected module (13th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# Loading altera_ver.PRIM_GDFF_LOW
+# Error loading design
+# End time: 01:39:39 on Apr 01,2021, Elapsed time: 0:00:02
+# Errors: 31, Warnings: 2
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo} work.CounterTB
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo" work.CounterTB 
+# Start time: 01:40:25 on Apr 01,2021
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading instances from Counter_v.sdo
+# ** Error (suppressible): (vsim-3389) Port 'tmp' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'carry_out' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o0' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o1' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o2' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o3' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o4' not found in the connected module (10th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o5' not found in the connected module (11th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o6' not found in the connected module (12th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# ** Error (suppressible): (vsim-3389) Port 'o7' not found in the connected module (13th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB/cnt File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v Line: 7
+# Loading altera_ver.PRIM_GDFF_LOW
+# Error loading design
+# End time: 01:40:26 on Apr 01,2021, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 4
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo} work.CounterTB
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo" work.CounterTB 
+# Start time: 01:41:38 on Apr 01,2021
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading instances from Counter_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading timing data from Counter_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v
+add wave -position end sim:/CounterTB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v(16)
+#    Time: 100100 ns  Iteration: 0  Instance: /CounterTB
+# Break in Module CounterTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v line 16
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+quit -sim
+run -all
+# End time: 01:45:11 on Apr 01,2021, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 3
+# No Design Loaded!
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo} work.CounterTB
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo" work.CounterTB 
+# Start time: 01:45:23 on Apr 01,2021
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading instances from Counter_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading timing data from Counter_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v
+add wave -position end sim:/CounterTB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v(16)
+#    Time: 100100 ns  Iteration: 0  Instance: /CounterTB
+# Break in Module CounterTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v line 16
+quit -sim
+# End time: 01:51:51 on Apr 01,2021, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 1
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v failed with 1 errors.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 1 failed with 1 error.
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful with warnings.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp {/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo} work.CounterTB
+# vsim -gui -L altera_ver -L cycloneiv_ver -L cycloneive_ver -sdftyp "/cnt=D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo" work.CounterTB 
+# Start time: 01:52:56 on Apr 01,2021
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading work.RingOscillator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading instances from Counter_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading timing data from Counter_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v
+add wave -position end sim:/CounterTB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v(19)
+#    Time: 100100 ns  Iteration: 0  Instance: /CounterTB
+# Break in Module CounterTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v line 19
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful with warnings.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading work.RingOscillator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading instances from Counter_v.sdo
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading timing data from Counter_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v(19)
+#    Time: 100100 ns  Iteration: 0  Instance: /CounterTB
+# Break in Module CounterTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v line 19
+# Compile of Counter.vo was successful.
+# Compile of Counter_TB.v was successful.
+# Compile of Ring_Oscillator.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CounterTB
+# Loading work.Counter
+# Loading work.hard_block
+# Loading work.RingOscillator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading instances from Counter_v.sdo
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_v.sdo
+# Loading timing data from Counter_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /CounterTB File: D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v(19)
+#    Time: 100100 ns  Iteration: 0  Instance: /CounterTB
+# Break in Module CounterTB at D:/Files/University/Term 4/DLD Lab/Projects/Project1/Model Sim/Test_benches/Counter_TB.v line 19
+# End time: 03:38:00 on Apr 01,2021, Elapsed time: 1:45:04
+# Errors: 0, Warnings: 1
