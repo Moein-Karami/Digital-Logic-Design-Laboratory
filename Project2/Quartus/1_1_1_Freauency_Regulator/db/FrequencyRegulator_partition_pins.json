@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PSI",
+					"strict" : false
+				},
+				{
+					"name" : "increment",
+					"strict" : false
+				},
+				{
+					"name" : "decrement",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[7]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[6]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[5]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[4]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[3]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[2]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[1]",
+					"strict" : false
+				},
+				{
+					"name" : "adjustDiv[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Duration[0]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[7]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[6]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[5]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[4]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[3]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[2]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[1]",
+					"strict" : false
+				},
+				{
+					"name" : "setPeriod[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50M",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

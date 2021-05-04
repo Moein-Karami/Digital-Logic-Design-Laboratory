@@ -1,0 +1,1 @@
+module Noise_Eliminattor(input clk, internal_ro);

@@ -1,0 +1,17 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/FinalTB/FinalTB.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\FinalTB\FinalTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullTB
+-- Compiling module RingOscillator
+
+Top level modules:
+	FullTB
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullDesign
+-- Compiling module hard_block
+
+Top level modules:
+	FullDesign
+
+} {} {}}

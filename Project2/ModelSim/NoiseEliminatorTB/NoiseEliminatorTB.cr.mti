@@ -1,0 +1,10 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB/NoiseEliminatorTB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB/NoiseEliminatorTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NoiseEliminatorTB
+-- Compiling module RingOscillator
+-- Compiling module NoiseMux
+
+Top level modules:
+	NoiseEliminatorTB
+
+} {} {}}

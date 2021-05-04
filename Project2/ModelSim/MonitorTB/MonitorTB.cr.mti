@@ -1,0 +1,27 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/MonitorTB/MonitorTB2.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\MonitorTB\MonitorTB2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MonitorTB2
+-- Compiling module Mux
+
+Top level modules:
+	MonitorTB2
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/2_1_Monitoring/simulation/modelsim/Monitoring.vo} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/2_1_Monitoring/simulation/modelsim/Monitoring.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Monitor_And_Regulator
+-- Compiling module hard_block
+
+Top level modules:
+	Monitor_And_Regulator
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/MonitorTB/MonitorTB.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\MonitorTB\MonitorTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MonitorTB
+-- Compiling module RingOscillator
+-- Compiling module Mux
+
+Top level modules:
+	MonitorTB
+	Mux
+
+} {} {}}

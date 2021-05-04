@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue May 04 07:20:25 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Noise_Eliminator
+Top-level Entity Name : FullDesign
+Family : Cyclone IV E
+Total logic elements : 158
+    Total combinational functions : 153
+    Dedicated logic registers : 45
+Total registers : 45
+Total pins : 38
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

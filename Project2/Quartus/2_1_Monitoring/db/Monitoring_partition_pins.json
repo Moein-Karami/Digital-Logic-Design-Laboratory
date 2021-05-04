@@ -1,0 +1,225 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Fail",
+					"strict" : false
+				},
+				{
+					"name" : "PSI",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Parallel_Louds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SetPeriod[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_max[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_set[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[7]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[6]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[5]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[4]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[3]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PSI_min[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Fro_min[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50MHz",
+					"strict" : false
+				},
+				{
+					"name" : "RO_external",
+					"strict" : false
+				},
+				{
+					"name" : "RO_internal",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,130 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 4/CA/Projects/Project1
+vAdjustingTB
+Z0 !s110 1620063437
+!i10b 1
+!s100 7EiD4]Wcm8JCo7h]MNHL_0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@f^Si8m[UP7DHo46CMCQI0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/AdjustingTB
+Z4 w1620063433
+Z5 8D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/AdjustingTB/AdjustingTB.v
+Z6 FD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/AdjustingTB/AdjustingTB.v
+!i122 101
+L0 3 32
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1620063437.000000
+Z9 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/AdjustingTB/AdjustingTB.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/AdjustingTB/AdjustingTB.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@adjusting@t@b
+vFrequencyRegulatorAndDivider
+R0
+!i10b 1
+!s100 4F7TF2WcB<hfiiB<6^2N62
+R1
+I8KmkCznF8:`K]7ghmi^bV3
+R2
+R3
+Z13 w1620062872
+Z14 8D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/1_1_1_Freauency_Regulator/simulation/modelsim/FrequencyRegulator.vo
+Z15 FD:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/1_1_1_Freauency_Regulator/simulation/modelsim/FrequencyRegulator.vo
+!i122 102
+L0 32 2699
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/1_1_1_Freauency_Regulator/simulation/modelsim/FrequencyRegulator.vo|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/1_1_1_Freauency_Regulator/simulation/modelsim/FrequencyRegulator.vo|
+!i113 1
+R11
+R12
+n@frequency@regulator@and@divider
+vhard_block
+R0
+!i10b 1
+!s100 22HhBSNK_K5V>]o8WSHH13
+R1
+I>b1z4k<kkmhIaf<`cj5;X1
+R2
+R3
+R13
+R14
+R15
+!i122 102
+L0 2732 34
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/1_1_1_Freauency_Regulator/simulation/modelsim/FrequencyRegulator.vo|
+R16
+!i113 1
+R11
+R12
+vMux
+R0
+!i10b 1
+!s100 dcb87O6im5fN_[B]A0OO=1
+R1
+IW7Ma@VPheD>@FPoko>G831
+R2
+R3
+R4
+R5
+R6
+!i122 101
+L0 47 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux
+vRingOscillator
+R0
+!i10b 1
+!s100 VbaVGd3P9cghNWk^AMEi60
+R1
+IXRf1U`bOdz7YCPCg?RC6V2
+R2
+R3
+R4
+R5
+R6
+!i122 101
+L0 36 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@ring@oscillator

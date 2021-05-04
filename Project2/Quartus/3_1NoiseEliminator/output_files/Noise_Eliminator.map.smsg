@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at FrequencyRegulator.v(6): always construct contains both blocking and non-blocking assignments File: D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/1_1_1_Freauency_Regulator/FrequencyRegulator.v Line: 6

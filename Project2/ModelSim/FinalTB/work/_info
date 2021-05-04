@@ -1,0 +1,130 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB
+vFullDesign
+Z0 !s110 1620097662
+!i10b 1
+!s100 _381lJ9RF@daV6X?TNLE=0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii_f@@12RLGIIn]FkPDIV:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/FinalTB
+Z4 w1620096642
+Z5 8D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo
+Z6 FD:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo
+!i122 15
+L0 32 4372
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1620097661.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@full@design
+vFullTB
+Z12 !s110 1620097661
+!i10b 1
+!s100 Oj3I83jQIKi64`N<hd>Pj3
+R1
+I?z<e2k`PPlh]elf@<MTk70
+R2
+R3
+Z13 w1620097657
+Z14 8D:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\FinalTB\FinalTB.v
+Z15 FD:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\FinalTB\FinalTB.v
+!i122 14
+L0 3 36
+R7
+r1
+!s85 0
+31
+R8
+Z16 !s107 D:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\FinalTB\FinalTB.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project2\ModelSim\FinalTB\FinalTB.v|
+!i113 1
+R10
+R11
+n@full@t@b
+vhard_block
+R0
+!i10b 1
+!s100 Icekg2f]nW=YcCSHgG=Bi3
+R1
+I4C;;UBReBQ[NCg4=ZlK0O0
+R2
+R3
+R4
+R5
+R6
+!i122 15
+L0 4405 34
+R7
+r1
+!s85 0
+31
+R8
+Z18 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo|
+R9
+!i113 1
+R10
+R11
+vMonitorTB
+!s110 1620097188
+!i10b 1
+!s100 SF:icCG><O7Y]DkN:32:I2
+R1
+IDAT=m3WI9;d7=T]bcF^ZT1
+R2
+R3
+w1620097181
+R14
+R15
+!i122 0
+L0 3 35
+R7
+r1
+!s85 0
+31
+!s108 1620097188.000000
+R16
+R17
+!i113 1
+R10
+R11
+n@monitor@t@b
+vRingOscillator
+R12
+!i10b 1
+!s100 fLonP3T]F3Od?Z4_@5U<P1
+R1
+I0`RM<^Q@QJ1Z0l8g8E5ka1
+R2
+R3
+R13
+R14
+R15
+!i122 14
+L0 41 10
+R7
+r1
+!s85 0
+31
+R8
+R16
+R17
+!i113 1
+R10
+R11
+n@ring@oscillator

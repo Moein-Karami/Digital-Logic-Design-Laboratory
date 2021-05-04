@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -3.942
+TNS   : -30.523
+
+Type  : Slow 1200mV 125C Model Setup 'Monitoring:inst3|neg_ero'
+Slack : -3.529
+TNS   : -3.529
+
+Type  : Slow 1200mV 125C Model Setup 'clk_50MHz'
+Slack : -3.232
+TNS   : -67.199
+
+Type  : Slow 1200mV 125C Model Setup 'rst'
+Slack : -1.874
+TNS   : -15.177
+
+Type  : Slow 1200mV 125C Model Hold 'clk_50MHz'
+Slack : -0.269
+TNS   : -0.269
+
+Type  : Slow 1200mV 125C Model Hold 'rst'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : 1.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'Monitoring:inst3|neg_ero'
+Slack : 2.777
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Recovery 'clk_50MHz'
+Slack : -2.224
+TNS   : -30.991
+
+Type  : Slow 1200mV 125C Model Recovery 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -1.228
+TNS   : -9.700
+
+Type  : Slow 1200mV 125C Model Recovery 'Monitoring:inst3|neg_ero'
+Slack : -1.141
+TNS   : -1.141
+
+Type  : Slow 1200mV 125C Model Recovery 'rst'
+Slack : -0.348
+TNS   : -0.348
+
+Type  : Slow 1200mV 125C Model Removal 'rst'
+Slack : -0.478
+TNS   : -0.478
+
+Type  : Slow 1200mV 125C Model Removal 'clk_50MHz'
+Slack : 0.534
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Removal 'Monitoring:inst3|neg_ero'
+Slack : 1.192
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Removal 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : 1.203
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -3.000
+TNS   : -55.045
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'rst'
+Slack : -3.000
+TNS   : -8.777
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'Monitoring:inst3|neg_ero'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV -40C Model Setup 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -3.427
+TNS   : -26.439
+
+Type  : Slow 1200mV -40C Model Setup 'clk_50MHz'
+Slack : -2.874
+TNS   : -55.377
+
+Type  : Slow 1200mV -40C Model Setup 'Monitoring:inst3|neg_ero'
+Slack : -2.776
+TNS   : -2.776
+
+Type  : Slow 1200mV -40C Model Setup 'rst'
+Slack : -1.601
+TNS   : -12.667
+
+Type  : Slow 1200mV -40C Model Hold 'clk_50MHz'
+Slack : -0.157
+TNS   : -0.157
+
+Type  : Slow 1200mV -40C Model Hold 'rst'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : 1.223
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'Monitoring:inst3|neg_ero'
+Slack : 2.431
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'clk_50MHz'
+Slack : -1.788
+TNS   : -23.172
+
+Type  : Slow 1200mV -40C Model Recovery 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -0.925
+TNS   : -7.294
+
+Type  : Slow 1200mV -40C Model Recovery 'Monitoring:inst3|neg_ero'
+Slack : -0.877
+TNS   : -0.877
+
+Type  : Slow 1200mV -40C Model Recovery 'rst'
+Slack : 0.023
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'rst'
+Slack : -0.406
+TNS   : -0.406
+
+Type  : Slow 1200mV -40C Model Removal 'clk_50MHz'
+Slack : 0.556
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'Monitoring:inst3|neg_ero'
+Slack : 1.074
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : 1.127
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -3.000
+TNS   : -47.975
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'rst'
+Slack : -3.000
+TNS   : -7.341
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -1.285
+TNS   : -10.280
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Monitoring:inst3|neg_ero'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV -40C Model Setup 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -1.935
+TNS   : -15.067
+
+Type  : Fast 1200mV -40C Model Setup 'Monitoring:inst3|neg_ero'
+Slack : -1.088
+TNS   : -1.088
+
+Type  : Fast 1200mV -40C Model Setup 'clk_50MHz'
+Slack : -0.854
+TNS   : -14.640
+
+Type  : Fast 1200mV -40C Model Setup 'rst'
+Slack : -0.302
+TNS   : -1.850
+
+Type  : Fast 1200mV -40C Model Hold 'clk_50MHz'
+Slack : -0.209
+TNS   : -0.209
+
+Type  : Fast 1200mV -40C Model Hold 'rst'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : 0.600
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'Monitoring:inst3|neg_ero'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'clk_50MHz'
+Slack : -1.250
+TNS   : -18.662
+
+Type  : Fast 1200mV -40C Model Recovery 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -0.740
+TNS   : -5.817
+
+Type  : Fast 1200mV -40C Model Recovery 'Monitoring:inst3|neg_ero'
+Slack : -0.611
+TNS   : -0.611
+
+Type  : Fast 1200mV -40C Model Recovery 'rst'
+Slack : -0.492
+TNS   : -0.492
+
+Type  : Fast 1200mV -40C Model Removal 'rst'
+Slack : -0.139
+TNS   : -0.139
+
+Type  : Fast 1200mV -40C Model Removal 'clk_50MHz'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'Monitoring:inst3|neg_ero'
+Slack : 0.528
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : 0.550
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk_50MHz'
+Slack : -3.000
+TNS   : -39.601
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'rst'
+Slack : -3.000
+TNS   : -6.411
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Noise_Eliminator:inst|ps.Noisechk0'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Monitoring:inst3|neg_ero'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

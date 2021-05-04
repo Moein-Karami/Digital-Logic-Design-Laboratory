@@ -1,0 +1,14 @@
+
+State Machine - |FullDesign|Noise_Eliminator:inst|ps
+Name ps.Noisechk0 ps.Stable1 ps.Noisechk1 ps.Waitfor1 
+ps.Waitfor1 0 0 0 0 
+ps.Noisechk1 0 0 1 1 
+ps.Stable1 0 1 0 1 
+ps.Noisechk0 1 0 0 1 
+
+State Machine - |FullDesign|Noise_Eliminator:inst|ns
+Name ns.Noisechk0 ns.Stable1 ns.Noisechk1 ns.Waitfor1 
+ns.Waitfor1 0 0 0 0 
+ns.Noisechk1 0 0 1 1 
+ns.Stable1 0 1 0 1 
+ns.Noisechk0 1 0 0 1 

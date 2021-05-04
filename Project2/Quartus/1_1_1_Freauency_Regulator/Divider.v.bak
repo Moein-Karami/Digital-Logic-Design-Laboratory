@@ -1,0 +1,3 @@
+module Counter(input clk, ld, rst, input [7 : 0]in, output co);
+begin
+	

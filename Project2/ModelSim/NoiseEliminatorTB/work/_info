@@ -1,0 +1,130 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/MonitorTB
+vhard_block
+Z0 !s110 1620096033
+!i10b 1
+!s100 0RUhD?WDAibzQ7T6cnzoT2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^QR3oN0Lm]KOU@l?L4@SI3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB
+Z4 w1620095712
+Z5 8D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo
+Z6 FD:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo
+!i122 33
+L0 378 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1620096032.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vNoise_Eliminator
+R0
+!i10b 1
+!s100 >]E1^aB;mUl`3O5iTJaG>2
+R1
+IjANJPi9cSeX2:AezQIj5W2
+R2
+R3
+R4
+R5
+R6
+!i122 33
+L0 32 345
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/Quartus/3_1NoiseEliminator/simulation/modelsim/Noise_Eliminator.vo|
+R9
+!i113 1
+R10
+R11
+n@noise_@eliminator
+vNoiseEliminatorTB
+Z13 !s110 1620096032
+!i10b 1
+!s100 Zl[>;I;[CIHP2>48ZmZ<z1
+R1
+IJHk8?`KFQYf_OAIDHmioA3
+R2
+R3
+Z14 w1620096027
+Z15 8D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB/NoiseEliminatorTB.v
+Z16 FD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB/NoiseEliminatorTB.v
+!i122 32
+L0 3 44
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB/NoiseEliminatorTB.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/NoiseEliminatorTB/NoiseEliminatorTB.v|
+!i113 1
+R10
+R11
+n@noise@eliminator@t@b
+vNoiseMux
+R13
+!i10b 1
+!s100 FoI<zc4Dc5A`YDT2JM;DL0
+R1
+I33`LiiaiDeo;Z^NmdGzdB0
+R2
+R3
+R14
+R15
+R16
+!i122 32
+L0 59 3
+R7
+r1
+!s85 0
+31
+R8
+R17
+R18
+!i113 1
+R10
+R11
+n@noise@mux
+vRingOscillator
+R13
+!i10b 1
+!s100 HB1B1:n][m8gHQ:g@[ZFh2
+R1
+IeKIVfgojZhkmD?LX0`^e^1
+R2
+R3
+R14
+R15
+R16
+!i122 32
+L0 48 10
+R7
+r1
+!s85 0
+31
+R8
+R17
+R18
+!i113 1
+R10
+R11
+n@ring@oscillator
