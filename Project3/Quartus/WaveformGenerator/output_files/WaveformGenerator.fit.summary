@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat May 22 04:47:18 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : WaveformGenerator
+Top-level Entity Name : WaveformGenerator
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 313 / 6,272 ( 5 % )
+    Total combinational functions : 313 / 6,272 ( 5 % )
+    Dedicated logic registers : 115 / 6,272 ( 2 % )
+Total registers : 115
+Total pins : 31 / 92 ( 34 % )
+Total virtual pins : 0
+Total memory bits : 2,048 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

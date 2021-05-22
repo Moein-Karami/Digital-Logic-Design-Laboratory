@@ -1,0 +1,36 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WaveformGenerator
+-- Compiling module hard_block
+
+Top level modules:
+	WaveformGenerator
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/WaveformGenerator.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/WaveformGenerator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WaveformGeneratorProcessor
+-- Compiling module Counter
+-- Compiling module Rhomboid
+-- Compiling module Square
+-- Compiling module Reciprocal
+-- Compiling module Triangle
+-- Compiling module Sine
+-- Compiling module FullwaveRectified
+-- Compiling module HalfwaveRectified
+-- Compiling module Sinusoidally
+-- Compiling module Adder
+-- Compiling module Register
+
+Top level modules:
+	WaveformGeneratorProcessor
+	Adder
+	Register
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator/TB.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator/TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

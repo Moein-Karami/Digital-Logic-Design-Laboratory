@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 22 04:47:08 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : WaveformGenerator
+Top-level Entity Name : WaveformGenerator
+Family : Cyclone IV E
+Total logic elements : 314
+    Total combinational functions : 312
+    Dedicated logic registers : 115
+Total registers : 115
+Total pins : 31
+Total virtual pins : 0
+Total memory bits : 2,048
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

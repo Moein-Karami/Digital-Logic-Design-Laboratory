@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'Divider:divider|psi'
+Slack : -18.343
+TNS   : -326.347
+
+Type  : Slow 1200mV 125C Model Setup 'clk'
+Slack : -3.571
+TNS   : -28.260
+
+Type  : Slow 1200mV 125C Model Setup 'rst'
+Slack : -1.779
+TNS   : -2.685
+
+Type  : Slow 1200mV 125C Model Setup 'SW[0]'
+Slack : -0.841
+TNS   : -0.841
+
+Type  : Slow 1200mV 125C Model Hold 'rst'
+Slack : -0.057
+TNS   : -0.057
+
+Type  : Slow 1200mV 125C Model Hold 'clk'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'Divider:divider|psi'
+Slack : 0.371
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'SW[0]'
+Slack : 0.776
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Recovery 'clk'
+Slack : -2.464
+TNS   : -12.226
+
+Type  : Slow 1200mV 125C Model Recovery 'Divider:divider|psi'
+Slack : -1.337
+TNS   : -107.954
+
+Type  : Slow 1200mV 125C Model Recovery 'rst'
+Slack : -1.001
+TNS   : -1.001
+
+Type  : Slow 1200mV 125C Model Recovery 'SW[0]'
+Slack : -0.966
+TNS   : -0.966
+
+Type  : Slow 1200mV 125C Model Removal 'rst'
+Slack : 0.068
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Removal 'SW[0]'
+Slack : 0.871
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Removal 'Divider:divider|psi'
+Slack : 0.927
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Removal 'clk'
+Slack : 1.109
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -14.896
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'rst'
+Slack : -3.000
+TNS   : -8.873
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.000
+TNS   : -4.487
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'Divider:divider|psi'
+Slack : -2.799
+TNS   : -182.813
+
+Type  : Slow 1200mV -40C Model Setup 'Divider:divider|psi'
+Slack : -15.244
+TNS   : -261.347
+
+Type  : Slow 1200mV -40C Model Setup 'clk'
+Slack : -3.049
+TNS   : -24.223
+
+Type  : Slow 1200mV -40C Model Setup 'rst'
+Slack : -1.609
+TNS   : -2.318
+
+Type  : Slow 1200mV -40C Model Setup 'SW[0]'
+Slack : -0.638
+TNS   : -0.638
+
+Type  : Slow 1200mV -40C Model Hold 'rst'
+Slack : -0.160
+TNS   : -0.160
+
+Type  : Slow 1200mV -40C Model Hold 'clk'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'Divider:divider|psi'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'SW[0]'
+Slack : 0.595
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'clk'
+Slack : -1.912
+TNS   : -8.885
+
+Type  : Slow 1200mV -40C Model Recovery 'Divider:divider|psi'
+Slack : -1.077
+TNS   : -84.033
+
+Type  : Slow 1200mV -40C Model Recovery 'rst'
+Slack : -0.615
+TNS   : -0.615
+
+Type  : Slow 1200mV -40C Model Recovery 'SW[0]'
+Slack : -0.574
+TNS   : -0.574
+
+Type  : Slow 1200mV -40C Model Removal 'rst'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'SW[0]'
+Slack : 0.836
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'Divider:divider|psi'
+Slack : 0.974
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Removal 'clk'
+Slack : 1.019
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'rst'
+Slack : -3.000
+TNS   : -7.480
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'Divider:divider|psi'
+Slack : -2.649
+TNS   : -160.051
+
+Type  : Fast 1200mV -40C Model Setup 'Divider:divider|psi'
+Slack : -7.501
+TNS   : -85.857
+
+Type  : Fast 1200mV -40C Model Setup 'clk'
+Slack : -1.661
+TNS   : -13.151
+
+Type  : Fast 1200mV -40C Model Setup 'rst'
+Slack : -0.354
+TNS   : -0.548
+
+Type  : Fast 1200mV -40C Model Setup 'SW[0]'
+Slack : -0.325
+TNS   : -0.325
+
+Type  : Fast 1200mV -40C Model Hold 'Divider:divider|psi'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'rst'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'clk'
+Slack : 0.521
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'SW[0]'
+Slack : 0.531
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'clk'
+Slack : -1.387
+TNS   : -7.416
+
+Type  : Fast 1200mV -40C Model Recovery 'Divider:divider|psi'
+Slack : -0.824
+TNS   : -67.252
+
+Type  : Fast 1200mV -40C Model Recovery 'SW[0]'
+Slack : -0.756
+TNS   : -0.756
+
+Type  : Fast 1200mV -40C Model Recovery 'rst'
+Slack : -0.755
+TNS   : -0.755
+
+Type  : Fast 1200mV -40C Model Removal 'rst'
+Slack : 0.102
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'Divider:divider|psi'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'SW[0]'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'clk'
+Slack : 0.519
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -11.649
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'rst'
+Slack : -3.000
+TNS   : -6.296
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.000
+TNS   : -4.155
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'Divider:divider|psi'
+Slack : -1.000
+TNS   : -115.000
+
+------------------------------------------------------------

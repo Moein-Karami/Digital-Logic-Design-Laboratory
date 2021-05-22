@@ -1,0 +1,1 @@
+module WaveformGenerator(input clk, SW[2 : 0], Phase_cntrl, output [7 : 0]generated_wave);

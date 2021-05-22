@@ -1,4 +1,5 @@
-module Monitoring(input clk, rst, input [7 : 0]Fro_min, input [7 : 0]PSI_min, input [7 : 0]PSI_max, input [7 : 0]PSI_set, input RO_external, output reg Fail, output [7 : 0]SetPeriod);
+module Monitoring(input clk, rst, input [7 : 0]Fro_min, input [7 : 0]PSI_min, input [7 : 0]PSI_max, input [7 : 0]PSI_set
+		, input RO_external, output reg Fail, output [7 : 0]SetPeriod);
 	assign SetPeriod = (PSI_min < PSI_set) ? PSI_min:
 			(PSI_max < PSI_set) ? PSI_set : PSI_max;
 	

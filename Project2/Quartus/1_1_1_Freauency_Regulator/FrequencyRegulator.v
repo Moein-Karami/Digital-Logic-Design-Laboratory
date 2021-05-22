@@ -2,7 +2,7 @@ module FrequencyRegulator(input clk, rst, PSI, input [7 : 0]setPeriod, output [7
 	reg [7 : 0]div;
 	reg old_psi;
 	reg neg_psi;
-	
+
 	always @(posedge clk, posedge rst)
 	begin : decide_when_to_count
 		if (rst)
@@ -22,7 +22,7 @@ module FrequencyRegulator(input clk, rst, PSI, input [7 : 0]setPeriod, output [7
 			old_psi = PSI;
 		end
 	end
-	
+
 	always @(duration, setPeriod)
 	begin : comparison
 		inc <= 0;
@@ -32,7 +32,7 @@ module FrequencyRegulator(input clk, rst, PSI, input [7 : 0]setPeriod, output [7
 		else if (duration < setPeriod)
 			inc <= 1;
 	end
-	
+
 	always @(posedge clk, posedge rst)
 	begin : increment_decrement
 		if (rst)
@@ -45,7 +45,7 @@ module FrequencyRegulator(input clk, rst, PSI, input [7 : 0]setPeriod, output [7
 				div = div - 1;
 		end
 	end
-	
+
 	assign adjustDiv = ~(div);
-	
+
 endmodule

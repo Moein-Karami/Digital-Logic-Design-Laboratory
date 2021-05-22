@@ -1,0 +1,370 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 4/DLD Lab/Projects/Project2/ModelSim/FinalTB
+vAdder
+Z0 !s110 1621642881
+!i10b 1
+!s100 K?KJ8BJ@<S8COSLoC<Z=a0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWX<2VQ?4H4YXV7iR6c_j[2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator
+Z4 w1621627201
+Z5 8D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/WaveformGenerator.v
+Z6 FD:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/WaveformGenerator.v
+!i122 156
+L0 208 3
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1621642881.000000
+Z9 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/WaveformGenerator.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/WaveformGenerator.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@adder
+vCounter
+R0
+!i10b 1
+!s100 I21;XRlgETP6Y8SZZVKH63
+R1
+ICVb`:[ICOEQR@?nU]65@K3
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 37 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@counter
+vFullwaveRectified
+R0
+!i10b 1
+!s100 z31RU5E:]Ve`Sh;72HV@<3
+R1
+Il]njY7Wol?WU7NDDdEPoP2
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 154 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@fullwave@rectified
+vHalfwaveRectified
+R0
+!i10b 1
+!s100 GCAYJekmQ?5znV9`4TIVb0
+R1
+IZ;Q?XiR6YZNgPICi@OKfa3
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 170 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@halfwave@rectified
+vhard_block
+R0
+!i10b 1
+!s100 >mBNYb66HMBfjdbL0iY=o0
+R1
+I6[zSI;MW_LLWzbn023i2l3
+R2
+R3
+Z13 w1621642648
+Z14 8D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo
+Z15 FD:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo
+!i122 158
+L0 8864 34
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo|
+!i113 1
+R11
+R12
+vReciprocal
+R0
+!i10b 1
+!s100 B0jRb7OE2149?k1h1WPTE0
+R1
+I]EkQ=F2Pd87EaSYA2Im3O2
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 92 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@reciprocal
+vRegister
+R0
+!i10b 1
+!s100 13Mi[W^Y5hbiX:]McR]>Z1
+R1
+I:CN^B_eX?eLoAC;EGhB=f3
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 212 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@register
+vRhomboid
+R0
+!i10b 1
+!s100 8R;mK=`V7`dK``W;BW=PP2
+R1
+IZdIA]gic[=`oSXKc[V9KT1
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 49 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@rhomboid
+vSine
+R0
+!i10b 1
+!s100 H<3cnl<Z5:3RFWkOmJMl12
+R1
+Ii=>6Qh^E@35R>BJmnU[g_2
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 127 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@sine
+vSinusoidally
+R0
+!i10b 1
+!s100 OZY_fS`zMGLLga^o=IYTJ1
+R1
+I@SZ;;IdTYd`MZhgiI4g8T1
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 186 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@sinusoidally
+vSquare
+R0
+!i10b 1
+!s100 U^CABXX_oW?42VC2V5Qgg2
+R1
+I`PRD3lVBE4Ylg[V@?G90^3
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 76 15
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@square
+vTB
+R0
+!i10b 1
+!s100 W[26=1J@eL9JHGG;;dULY0
+R1
+I;Cnm1;4DcV1baOQSfRiSU0
+R2
+R3
+w1621642878
+8D:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator/TB.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator/TB.v
+!i122 157
+L0 3 28
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator/TB.v|
+!i113 1
+R11
+R12
+n@t@b
+vTriangle
+R0
+!i10b 1
+!s100 @3fkb8DS`laTimgh<1j@D2
+R1
+I8IF7f<P3I@DKF2NaL9W[Y3
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 103 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@triangle
+vWaveformGenerator
+R0
+!i10b 1
+!s100 lkMdOKbWhXMPj3`0M^LK^1
+R1
+ITbclGH;V4iEIU`m;E^IYz1
+R2
+R3
+R13
+R14
+R15
+!i122 158
+L0 32 8831
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project3/Quartus/WaveformGenerator/simulation/modelsim/WaveformGenerator.vo|
+R16
+!i113 1
+R11
+R12
+n@waveform@generator
+vWaveformGeneratorProcessor
+R0
+!i10b 1
+!s100 HUYo;Ykic7bQYPI<7=:AF2
+R1
+I<dTHhFF71hVNBCXi3JdVU3
+R2
+R3
+R4
+R5
+R6
+!i122 156
+L0 1 35
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@waveform@generator@processor
