@@ -1,0 +1,16 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Wrapper\TB2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project4/Quartus/Wrapper/simulation/modelsim/Wrapper.vo} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project4/Quartus/Wrapper/simulation/modelsim/Wrapper.vo}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Wrapper
+-- Compiling module hard_block
+
+Top level modules:
+	Wrapper
+
+} {} {}}

@@ -1,0 +1,34 @@
+
+State Machine - |TopDesign|Wrapper:wrapper|WrapperDataPath:data_path|exponential:ex|controller:control|ps
+Name ps.Add ps.Mult2 ps.Mult1 ps.Begin ps.Initialization ps.Idle 
+ps.Idle 0 0 0 0 0 0 
+ps.Initialization 0 0 0 0 1 1 
+ps.Begin 0 0 0 1 0 1 
+ps.Mult1 0 0 1 0 0 1 
+ps.Mult2 0 1 0 0 0 1 
+ps.Add 1 0 0 0 0 1 
+
+State Machine - |TopDesign|Wrapper:wrapper|WrapperController:controller|ps
+Name ps.1101 ps.1100 ps.1011 ps.1010 ps.1001 ps.1000 ps.0111 ps.0110 ps.0101 ps.0100 ps.0011 ps.0010 ps.0001 ps.0000 
+ps.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ps.0001 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+ps.0010 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+ps.0011 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+ps.0100 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+ps.0101 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+ps.0110 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+ps.0111 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+ps.1000 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+ps.1001 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+ps.1010 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+ps.1011 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+ps.1100 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+ps.1101 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |TopDesign|FrequencyMultiplier:fm|Controller:controller|ps
+Name ps.011 ps.010 ps.001 ps.000 ps.100 
+ps.000 0 0 0 0 0 
+ps.001 0 0 1 1 0 
+ps.010 0 1 0 1 0 
+ps.011 1 0 0 1 0 
+ps.100 0 0 0 1 1 

@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'ref_f'
+Slack : -4.343
+TNS   : -88.136
+
+Type  : Slow 1200mV 125C Model Setup 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : -0.953
+TNS   : -10.019
+
+Type  : Slow 1200mV 125C Model Setup 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : -0.303
+TNS   : -0.303
+
+Type  : Slow 1200mV 125C Model Hold 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'ref_f'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ref_f'
+Slack : -3.000
+TNS   : -68.428
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : -1.487
+TNS   : -35.688
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV -40C Model Setup 'ref_f'
+Slack : -3.730
+TNS   : -71.045
+
+Type  : Slow 1200mV -40C Model Setup 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : -0.679
+TNS   : -5.846
+
+Type  : Slow 1200mV -40C Model Setup 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : -0.238
+TNS   : -0.238
+
+Type  : Slow 1200mV -40C Model Hold 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'ref_f'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ref_f'
+Slack : -3.000
+TNS   : -59.540
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : -1.285
+TNS   : -30.840
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV -40C Model Setup 'ref_f'
+Slack : -1.450
+TNS   : -18.720
+
+Type  : Fast 1200mV -40C Model Setup 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : -0.115
+TNS   : -0.115
+
+Type  : Fast 1200mV -40C Model Hold 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'ref_f'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ref_f'
+Slack : -3.000
+TNS   : -49.093
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|outFreq'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'FrequencyMultiplier:fm|DataPath:data_path|Divider:divider|cnt[0]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

@@ -1,0 +1,41 @@
+{D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v} {2 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath
+-- Compiling module Counter
+-- Compiling module Shifter
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(30): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(31): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module Divider
+-- Compiling module Register
+
+Top level modules:
+	DataPath
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/Controller.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Controller
+
+Top level modules:
+	Controller
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/FrequencyMultiplier.v} {1 {vlog -work work -stats=none {D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/FrequencyMultiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FrequencyMultiplier
+
+Top level modules:
+	FrequencyMultiplier
+
+} {} {}} {D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/TB.v} {1 {vlog -work work -stats=none {D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

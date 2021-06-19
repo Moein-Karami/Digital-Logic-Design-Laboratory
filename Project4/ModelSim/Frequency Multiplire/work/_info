@@ -1,0 +1,203 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 4/DLD Lab/Projects/Project3/ModelSim/Waveform Generator
+vController
+Z0 !s110 1624043500
+!i10b 1
+!s100 FX;a0>H6ljCT6Q6z8YzbA2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]m@T5JC42Mz=MC]anCdWC0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire
+w1624030206
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/Controller.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/Controller.v
+!i122 105
+L0 1 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1624043500.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/Controller.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@controller
+vCounter
+R0
+!i10b 1
+!s100 hnhZQbbDED;cRC_[5XS<N0
+R1
+IeclTO^8>0oY7aVHNfh`fS0
+R2
+R3
+Z8 w1624043494
+Z9 8D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v
+Z10 FD:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v
+!i122 106
+L0 10 14
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/DataPath.v|
+!i113 1
+R6
+R7
+n@counter
+vDataPath
+R0
+!i10b 1
+!s100 IHZOUC4lXK77KThm?0@m^1
+R1
+IE7DJoAmK_RTJ5[PBP]kKQ0
+R2
+R3
+R8
+R9
+R10
+!i122 106
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@data@path
+vDivider
+R0
+!i10b 1
+!s100 ^KC<?XAJZKW4DF8L;0C=83
+R1
+IW[4EknYmL^HaD5<7d[`S20
+R2
+R3
+R8
+R9
+R10
+!i122 106
+L0 43 27
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@divider
+vFrequencyMultiplier
+R0
+!i10b 1
+!s100 6QIn`i4QazM=h5?JhK4Xk3
+R1
+I3ZmPI@jOP6Z7XDQ2RM1Zh1
+R2
+R3
+w1624029842
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/FrequencyMultiplier.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/FrequencyMultiplier.v
+!i122 104
+L0 1 6
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/FrequencyMultiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/FrequencyMultiplier.v|
+!i113 1
+R6
+R7
+n@frequency@multiplier
+vRegister
+R0
+!i10b 1
+!s100 FPgGnNfIYhKLLSQFOb@400
+R1
+I[o?D4b7;^o0m^iWX1lEQG0
+R2
+R3
+R8
+R9
+R10
+!i122 106
+L0 71 8
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@register
+vShifter
+R0
+!i10b 1
+!s100 jP3796jNM=H@^Y0@LoB]l0
+R1
+IP:eN7lZ<fW_G_Y05nTJ_g0
+R2
+R3
+R8
+R9
+R10
+!i122 106
+L0 25 17
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@shifter
+vTB
+!s110 1624043501
+!i10b 1
+!s100 ^NW61BiFWg[BACDmY0kC11
+R1
+IUO5G563:?6SFaLAD6e1jb1
+R2
+R3
+w1624042855
+8D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v
+!i122 107
+L0 3 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v|
+!i113 1
+R6
+R7
+n@t@b

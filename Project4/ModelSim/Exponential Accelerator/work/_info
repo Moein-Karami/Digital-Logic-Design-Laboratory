@@ -1,0 +1,290 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire
+vadder
+!s110 1624069925
+!i10b 1
+!s100 eCc=H`lER_4_hdzNQgFR22
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IB:33`dC`JVYL_o^ND]z9f1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Exponential Accelerator
+w1608023351
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/adder.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/adder.v
+!i122 31
+L0 1 5
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1624069925.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vcontroller
+Z7 !s110 1624069926
+!i10b 1
+!s100 >YBmif9G@@2A75N5d7f=<2
+R0
+IQn=HKC:B8O;NM_zOzXOPg2
+R1
+R2
+w1608188222
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Controller.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Controller.v
+!i122 32
+L0 1 64
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Controller.v|
+!i113 1
+R5
+R6
+vcounter
+R7
+!i10b 1
+!s100 UQ1j^HaPSjWgWN`:a6=h<1
+R0
+IL3mSaJAZBVA<KYo[i9DPX2
+R1
+R2
+w1608024927
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Counter.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Counter.v
+!i122 33
+Z8 L0 2 14
+R3
+r1
+!s85 0
+31
+Z9 !s108 1624069926.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Counter.v|
+!i113 1
+R5
+R6
+vdatapath
+R7
+!i10b 1
+!s100 X3Sl?G^Fbb0?X:oc4_X;92
+R0
+ImQObSlD>Z9U>zE1[:>X1L0
+R1
+R2
+w1608025242
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Datapath.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Datapath.v
+!i122 34
+L0 1 24
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/Datapath.v|
+!i113 1
+R5
+R6
+vexponential
+R7
+!i10b 1
+!s100 md5;Vb<:7I>l6FG0?]Gm43
+R0
+Ia_d=eE=XoHM`n]E_8Nj>m2
+R1
+R2
+w1608023343
+8D:\Files\University\Term 4\DLD Lab\Projects\Project4\Exp_Accelerator\exponential.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project4\Exp_Accelerator\exponential.v
+!i122 35
+L0 1 12
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project4\Exp_Accelerator\exponential.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project4\Exp_Accelerator\exponential.v|
+!i113 1
+R5
+R6
+vLUT
+R7
+!i10b 1
+!s100 JgVO?Lj==2bRMg4oCe6nH3
+R0
+IND9iT`44c6LTE7ih9h]0L1
+R1
+R2
+w1608023407
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/LUTExp.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/LUTExp.v
+!i122 36
+L0 1 16
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/LUTExp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/LUTExp.v|
+!i113 1
+R5
+R6
+n@l@u@t
+vmultiplier
+R7
+!i10b 1
+!s100 OLiLEPYa]L[;Zh@Me8Z9f1
+R0
+IBi1L0@STeebn5J8:c:bmP1
+R1
+R2
+w1608024647
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/multiplier.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/multiplier.v
+!i122 37
+Z10 L0 2 5
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/multiplier.v|
+!i113 1
+R5
+R6
+vmux2to1
+Z11 !s110 1624069927
+!i10b 1
+!s100 FWhMI@:R3Tdk@:__`5[C<2
+R0
+IR:SY06eRX0D^4gCS29CF70
+R1
+R2
+w1608024418
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/mux2to1.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/mux2to1.v
+!i122 38
+R10
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/mux2to1.v|
+!i113 1
+R5
+R6
+vregister
+R11
+!i10b 1
+!s100 7cl4m`oQk9Q7i<YFIboml2
+R0
+ID[`lT5S3b5lmjNWfm=g]b2
+R1
+R2
+w1608024873
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register.v
+!i122 39
+R8
+R3
+r1
+!s85 0
+31
+Z12 !s108 1624069927.000000
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register.v|
+!i113 1
+R5
+R6
+vregister18
+R11
+!i10b 1
+!s100 oAz243<D<a_lCnTHNlRjS2
+R0
+ICQL;3HW<ZW7AGUhol[5373
+R1
+R2
+w1608024837
+8D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register18.v
+FD:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register18.v
+!i122 40
+R8
+R3
+r1
+!s85 0
+31
+R12
+!s107 D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register18.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Files/University/Term 4/DLD Lab/Projects/Project4/Exp_Accelerator/register18.v|
+!i113 1
+R5
+R6
+vTB
+!s110 1624046039
+!i10b 1
+!s100 4GIH0CKNZMN[Kekn_XJWa0
+R0
+Ij58BLRW[5Xld6Ij9FUmU71
+R1
+R2
+w1624046032
+8D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v
+!i122 30
+Z13 L0 3 35
+R3
+r1
+!s85 0
+31
+!s108 1624046039.000000
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Frequency Multiplire\TB.v|
+!i113 1
+R5
+R6
+n@t@b
+vTBtemp
+!s110 1624069930
+!i10b 1
+!s100 fO<l^oKaOS<hmbk?af5hX3
+R0
+IVZ`To88F<X7L;TKke2MSG0
+R1
+R2
+w1624069911
+8D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Exponential Accelerator\TBtemp.v
+FD:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Exponential Accelerator\TBtemp.v
+!i122 41
+R13
+R3
+r1
+!s85 0
+31
+!s108 1624069929.000000
+!s107 D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Exponential Accelerator\TBtemp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Files\University\Term 4\DLD Lab\Projects\Project4\ModelSim\Exponential Accelerator\TBtemp.v|
+!i113 1
+R5
+R6
+n@t@btemp

@@ -1,0 +1,165 @@
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of TB.v failed with 2 errors.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of TB.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 00:24:07 on Jun 19,2021
+# Loading work.TB
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+add wave -position end sim:/TB/*
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/TB.v(35)
+#    Time: 350 us  Iteration: 0  Instance: /TB
+# Break in Module TB at D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Frequency Multiplire/TB.v line 35
+quit -sim
+# End time: 05:37:20 on Jun 19,2021, Elapsed time: 5:13:13
+# Errors: 0, Warnings: 8
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Wrapper
+# Compile of Wrapper.vo was successful.
+# Compile of Wrapper.vo was successful.
+# Compile of TB.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of Wrapper.vo was successful.
+# Compile of TB.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of Wrapper.vo was successful.
+# Compile of TB2.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of Wrapper.vo was successful.
+# Compile of TB2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.TB -L altera_ver -L cycloneiv_ver -L cycloneive_ver -L altera_mf -sdftyp {/wrapper=D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo}
+# vsim -gui work.TB -L altera_ver -L cycloneiv_ver -L cycloneive_ver -L altera_mf -sdftyp "/wrapper=D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo" 
+# Start time: 05:52:05 on Jun 19,2021
+# Loading work.TB
+# Loading work.Wrapper
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_mac_mult
+# Loading cycloneive_ver.cycloneive_mac_data_reg
+# Loading cycloneive_ver.cycloneive_mac_sign_reg
+# Loading cycloneive_ver.cycloneive_mac_mult_internal
+# Loading cycloneive_ver.cycloneive_mac_out
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo
+# Loading instances from Wrapper_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo
+# Loading timing data from Wrapper_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v
+add wave -position end sim:/TB/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of Wrapper.vo was successful.
+# Compile of TB2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.Wrapper
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo
+# Loading instances from Wrapper_v.sdo
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo
+# Loading timing data from Wrapper_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v(32)
+#    Time: 2200 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v line 32
+# Compile of Wrapper.vo was successful.
+# Compile of TB2.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.Wrapper
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo
+# Loading instances from Wrapper_v.sdo
+# Loading timing data from D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/Wrapper_v.sdo
+# Loading timing data from Wrapper_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /TB File: D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v
+run -all
+# ** Note: $stop    : D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v(40)
+#    Time: 6200 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at D:/Files/University/Term 4/DLD Lab/Projects/Project4/ModelSim/Wrapper/TB2.v line 40
+quit -sim
+# End time: 06:04:42 on Jun 19,2021, Elapsed time: 0:12:37
+# Errors: 0, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project TopDesign
+# Compile of Controller.v was successful.
+# Compile of DataPath.v was successful with warnings.
+# Compile of FrequencyMultiplier.v was successful.
+# Compile of Wrapper.vo was successful.
+# Compile of TopDesign.v was successful.
+# 5 compiles, 0 failed with no errors.
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project TopTB
+# Compile of TopDesign.vo was successful.
+# Compile of FinalTB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of TopDesign.vo was successful.
+# Compile of FinalTB.v was successful.
+# 2 compiles, 0 failed with no errors.

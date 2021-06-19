@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'clk'
+Slack : -6.760
+TNS   : -334.939
+
+Type  : Slow 1200mV 125C Model Setup 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : -1.215
+TNS   : -11.476
+
+Type  : Slow 1200mV 125C Model Hold 'clk'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Hold 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -196.313
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : 0.423
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Setup 'clk'
+Slack : -5.795
+TNS   : -278.652
+
+Type  : Slow 1200mV -40C Model Setup 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : -0.893
+TNS   : -8.141
+
+Type  : Slow 1200mV -40C Model Hold 'clk'
+Slack : 0.344
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -177.167
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : 0.426
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Setup 'clk'
+Slack : -2.564
+TNS   : -101.097
+
+Type  : Fast 1200mV -40C Model Setup 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : -0.052
+TNS   : -0.075
+
+Type  : Fast 1200mV -40C Model Hold 'clk'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -121.171
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'WrapperDataPath:data_path|exponential:ex|datapath:dP|counter:count|out[3]'
+Slack : 0.335
+TNS   : 0.000
+
+------------------------------------------------------------
