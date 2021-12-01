@@ -1,8 +1,0 @@
-* D:\Files\University\Term 4\DLD Lab\Projects\Project1\Draft1.asc
-XU1 N001 N001 output VCC 0 74HCT132 VCC=5 SPEED=1.0 TRIPDT=1e-9
-C1 N001 0 10n
-R1 output N001 1k
-.lib 74hct.lib
-.tran 0.01
-.backanno
-.end
